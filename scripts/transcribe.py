@@ -3,14 +3,19 @@ import os
 from pathlib import Path
 import argparse
 
-'''
-Transcribes audio file using OpenAI Whisper, saves transcript
+"""
+transcribe.py
 
-Example commands:
-    python scripts/transcribe.py audio/interview1.mp4
-    python scripts/transcribe.py audio/interview1.mp4 transripts/interview1.txt 
- 
-'''
+Transcribe an audio file into plain text using OpenAI Whisper.
+
+This script converts spoken audio into a text transcript while preserving the
+original wording. It is intended to automate the transcription step of the
+qualitative research workflow without performing interpretation or analysis.
+
+Example:
+    python scripts/transcribe.py audio/interview1.mp3
+    python scripts/transcribe.py audio/interview1.mp3 transcripts/interview1.txt
+"""
 
 def transcribe(input_path: Path, output_path: Path, model_name: str = "base"):
     print(f"Loading {model_name} Whisper model...")
