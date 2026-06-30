@@ -4,12 +4,12 @@ A collection of lightweight Python scripts that automate repetitive tasks in qua
 
 ## Philosophy
 
-This repository is designed to support—not replace—the qualitative research process. The scripts automate mechanical tasks such as transcription, organization, and documentation while preserving researcher judgment during coding and analysis.
+This repository is designed to support, not replace, the qualitative research process. The scripts automate mechanical tasks such as transcription, organization, and documentation while preserving researcher judgment during coding and analysis.
 
 ## Features
 
 ### `transcribe.py`
-Transcribe audio interviews into text using OpenAI Whisper.
+Transcribe audio interviews into text using OpenAI's Whisper.
 
 Example:
 
@@ -62,15 +62,4 @@ python -m venv venv
 source venv/bin/activate
 
 pip install -r requirements.txt
-```
-
-## Repository Structure
-
-```
-qualitative-research-tools/
-├── scripts/
-├── examples/
-├── outputs/
-├── requirements.txt
-└── README.md
 ```
