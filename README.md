@@ -50,6 +50,23 @@ Example:
 python scripts/organize_quotes.py codeds --out-dir outputs
 ```
 
+---
+
+### `semantic_search.py`
+Search through transcripts for specific ideas.
+
+Outputs:
+- Top X most similar quotes to desired idea
+- Similarity Score
+- Sentence before and after for context
+
+Example:
+
+```bash
+python scripts/semantic_search.py "students depend on AI instead of thinking for themselves" transcripts --top 4
+```
+
+
 ## Installation
 
 Clone the repository and install the required packages:
