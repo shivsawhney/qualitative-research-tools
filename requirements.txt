@@ -1,3 +1,5 @@
 openai-whisper
 pandas
 python-docx
+sentence-transformers
+scikit-learn
