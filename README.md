@@ -4,7 +4,7 @@ A collection of lightweight Python scripts that automate repetitive tasks in qua
 
 ## Philosophy
 
-This repository is designed to support, not replace, the qualitative research process. The scripts automate mechanical tasks such as transcription, organization, and documentation while preserving researcher judgment during coding and analysis.
+This repository is designed to support, not replace, the qualitative research process. The scripts automate mechanical tasks such as transcription, organization, documentation, and searching while preserving researcher judgment during coding and analysis. The goal here is to have these tools support, not replace important cognitive processes.
 
 ## Features
 
